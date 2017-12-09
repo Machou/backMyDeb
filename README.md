@@ -12,7 +12,7 @@ apt-get install plowshare
 
 ```sh
 # Archive password
-COMPR_PASS="jujTKj6OLmyrttrletlrtTI456y"
+COMPR_PASS=""
 
 # Database informations
 DB_HOST="localhost"
@@ -33,9 +33,10 @@ chmod +x backup.sh
 ```
 
 ### Cron
-```
-#All day - 11h PM
 
+All day - 11h PM
+
+```
 crontab -e
 0 23 * * * bash /root/backup.sh &> /dev/null
 ```
