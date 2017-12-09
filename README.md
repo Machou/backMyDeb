@@ -32,6 +32,14 @@ chmod +x backup.sh
 ./backup.sh
 ```
 
+### Cron
+```
+#All day - 11h PM
+
+crontab -e
+0 23 * * * bash /root/backup.sh &> /dev/null
+```
+
 ### License
 
 The script Real IP are distributed under the [The MIT License](https://opensource.org/licenses/MIT).
