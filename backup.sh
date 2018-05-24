@@ -19,10 +19,6 @@ DIR_EXC[0]=""
 SQL_QUERY=""
 
 
-# Date format used to generate the files
-DATE_FORMAT="`date +\%-d\%m-\%Y-\%H-\%M`"
-
-
 # Path to the log file
 LOG_FILE="/root/backup/backup.log"
 
