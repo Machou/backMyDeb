@@ -1,7 +1,7 @@
 # backMyDeb
 
-backMyDeb is a script that allows you to back up folders, database, make specific requests on you're database, encrypt the archive etc.. and upload the archive with plowshare
-
+backMyDeb is a bash script that allows you to backup your website, specific folders, databases, make specific queries on your database before backup, encrypt the archive, etc.
+ 
 ### Installation
 
 ```sh
@@ -44,4 +44,3 @@ crontab -e
 ### License
 
 The script Real IP are distributed under the [The MIT License](https://opensource.org/licenses/MIT).
-
